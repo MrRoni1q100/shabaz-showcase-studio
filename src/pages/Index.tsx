@@ -3,6 +3,7 @@ import Services from "@/components/Services";
 import WhyHireMe from "@/components/WhyHireMe";
 import Experience from "@/components/Experience";
 import Portfolio from "@/components/Portfolio";
+import CTA from "@/components/CTA";
 import Contact from "@/components/Contact";
 import Navigation from "@/components/Navigation";
 
@@ -24,6 +25,9 @@ const Index = () => {
       </div>
       <div id="portfolio">
         <Portfolio />
+      </div>
+      <div id="cta">
+        <CTA />
       </div>
       <div id="contact">
         <Contact />
