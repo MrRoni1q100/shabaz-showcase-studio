@@ -11,21 +11,21 @@ const Hero = () => {
       <div className="container mx-auto grid lg:grid-cols-2 gap-12 items-center relative z-10">
         {/* Text Content */}
         <div className="space-y-6">
-          <div className="inline-block px-4 py-2 bg-card rounded-full border border-border text-sm font-medium">
+          <div className="inline-block px-4 py-2 bg-card rounded-full border border-border text-sm font-medium animate-fade-in">
             HEY! 👋
           </div>
           
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight animate-fade-in" style={{ animationDelay: '0.1s' }}>
             I'm <span className="text-primary">Shabaz</span>,<br />
             Product Designer
           </h1>
           
-          <p className="text-lg text-muted-foreground max-w-md">
+          <p className="text-lg text-muted-foreground max-w-md animate-fade-in" style={{ animationDelay: '0.2s' }}>
             A PRODUCT DESIGNER LOCATED IN MUMBAI WHO LOVES TO CRAFT ATTRACTIVE DESIGNS AND EXPERIENCES
           </p>
           
-          <div className="flex flex-wrap gap-4 items-center">
-            <Button size="lg" className="rounded-full">
+          <div className="flex flex-wrap gap-4 items-center animate-fade-in" style={{ animationDelay: '0.3s' }}>
+            <Button size="lg" className="rounded-full hover:scale-105 transition-transform duration-300">
               PORTFOLIO
             </Button>
             
@@ -41,13 +41,13 @@ const Hero = () => {
         </div>
         
         {/* Profile Image */}
-        <div className="relative flex justify-center lg:justify-end">
+        <div className="relative flex justify-center lg:justify-end animate-scale-in" style={{ animationDelay: '0.4s' }}>
           <div className="relative">
             {/* Background blob */}
             <div className="absolute inset-0 bg-primary/30 rounded-full scale-110 blur-2xl animate-pulse" />
             
             {/* Image container */}
-            <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-background shadow-2xl">
+            <div className="relative w-80 h-80 md:w-96 md:h-96 rounded-full overflow-hidden border-8 border-background shadow-2xl hover:scale-105 transition-transform duration-500">
               <img 
                 src={profileImg} 
                 alt="Shabaz - Product Designer" 
