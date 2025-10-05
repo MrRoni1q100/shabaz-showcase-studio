@@ -17,6 +17,7 @@ const Navigation = () => {
   const navItems = [
     { label: "About", href: "#hero" },
     { label: "Services", href: "#services" },
+    { label: "Why Hire Me", href: "#why-hire-me" },
     { label: "Experience", href: "#experience" },
     { label: "Portfolio", href: "#portfolio" },
     { label: "Contact", href: "#contact" },

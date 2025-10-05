@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
+import WhyHireMe from "@/components/WhyHireMe";
 import Experience from "@/components/Experience";
 import Portfolio from "@/components/Portfolio";
 import Contact from "@/components/Contact";
@@ -14,6 +15,9 @@ const Index = () => {
       </div>
       <div id="services">
         <Services />
+      </div>
+      <div id="why-hire-me">
+        <WhyHireMe />
       </div>
       <div id="experience">
         <Experience />
